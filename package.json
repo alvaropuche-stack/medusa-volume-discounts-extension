@@ -1,0 +1,79 @@
+{
+  "name": "medusa-volume-discounts-extension",
+  "version": "1.0.0",
+  "description": "A comprehensive volume discounts extension for Medusa v2 with advanced configuration options and professional admin interface",
+  "main": "src/backend/modules/volume-discount/index.ts",
+  "keywords": [
+    "medusa",
+    "medusajs",
+    "ecommerce",
+    "volume-discounts",
+    "bulk-pricing",
+    "quantity-discounts",
+    "b2b",
+    "wholesale",
+    "extension",
+    "plugin"
+  ],
+  "author": {
+    "name": "Alvaro Puche Ortiz",
+    "email": "contact@zhenvo.com",
+    "url": "https://zhenvo.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/alvaropuche-stack/medusa-volume-discounts-extension#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaropuche-stack/medusa-volume-discounts-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alvaropuche-stack/medusa-volume-discounts-extension/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "peerDependencies": {
+    "@medusajs/framework": "^2.0.0",
+    "@medusajs/admin-sdk": "^2.0.0",
+    "@medusajs/ui": "^2.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.400.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "src/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  },
+  "medusa": {
+    "version": "2.x",
+    "type": "extension",
+    "category": "discount",
+    "features": [
+      "volume-discounts",
+      "quantity-pricing", 
+      "bulk-discounts",
+      "tiered-pricing"
+    ]
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/alvaropuche-stack"
+  }
+}
