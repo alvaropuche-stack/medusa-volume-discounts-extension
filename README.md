@@ -4,26 +4,26 @@ A comprehensive volume discounts extension for Medusa v2 that enables quantity-b
 
 ## Features
 
-### 🎯 **Flexible Discount Types**
+### **Flexible Discount Types**
 - **Product-specific**: Apply discounts to selected products
 - **Category-based**: Discount entire product categories  
 - **Global**: Store-wide discounts with exclusion options
 - **Percentage or Fixed**: Support for both percentage and fixed amount discounts
 
-### 📊 **Advanced Configuration**
+### **Advanced Configuration**
 - **Quantity Ranges**: Set minimum and maximum quantities for each discount tier
 - **Priority System**: Resolve conflicts when multiple discounts apply
 - **Time-based Restrictions**: Set start and end dates for seasonal promotions
 - **Usage Limits**: Control total usage and per-customer limits
 - **Product Exclusions**: Exclude specific products from global/category discounts
 
-### 💼 **Business-Ready Features**
+### **Business-Ready Features**
 - **Multi-product Selection**: Easy product picker with search functionality
 - **Real-time Preview**: See discount effects before saving
 - **Usage Tracking**: Monitor discount performance and usage statistics
 - **Professional Admin UI**: Clean, intuitive interface built with Medusa UI components
 
-### 🛒 **Storefront Integration**
+### **Storefront Integration**
 - **Automatic Application**: Discounts apply automatically at cart level
 - **Tier Visualization**: Show available discounts to encourage larger purchases
 - **API Endpoints**: Full REST API for custom implementations
